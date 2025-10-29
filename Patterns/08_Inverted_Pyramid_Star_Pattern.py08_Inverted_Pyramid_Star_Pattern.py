@@ -1,0 +1,11 @@
+# *********
+#  *******
+#   *****
+#    ***
+#     *
+
+N = int(input("Lines: "))
+
+for i in range(N, 0, -1):
+    print(" "*(N-i),end="")
+    print("*"*(i*2-1))
